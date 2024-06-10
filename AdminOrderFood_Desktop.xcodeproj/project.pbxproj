@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25C99502C16844C0060A914 /* AdminOrderFood_DesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C994F2C16844C0060A914 /* AdminOrderFood_DesktopApp.swift */; };
+		D25C99522C16844C0060A914 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C99512C16844C0060A914 /* ContentView.swift */; };
+		D25C99542C16844F0060A914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C99532C16844F0060A914 /* Assets.xcassets */; };
+		D25C99572C16844F0060A914 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25C99562C16844F0060A914 /* Preview Assets.xcassets */; };
+		D25C99622C1684500060A914 /* AdminOrderFood_DesktopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C99612C1684500060A914 /* AdminOrderFood_DesktopTests.swift */; };
+		D25C996C2C1684500060A914 /* AdminOrderFood_DesktopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C996B2C1684500060A914 /* AdminOrderFood_DesktopUITests.swift */; };
+		D25C996E2C1684500060A914 /* AdminOrderFood_DesktopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C996D2C1684500060A914 /* AdminOrderFood_DesktopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D25C995E2C1684500060A914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25C99442C16844C0060A914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25C994B2C16844C0060A914;
+			remoteInfo = AdminOrderFood_Desktop;
+		};
+		D25C99682C1684500060A914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25C99442C16844C0060A914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25C994B2C16844C0060A914;
+			remoteInfo = AdminOrderFood_Desktop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D25C994C2C16844C0060A914 /* AdminOrderFood_Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdminOrderFood_Desktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C994F2C16844C0060A914 /* AdminOrderFood_DesktopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderFood_DesktopApp.swift; sourceTree = "<group>"; };
+		D25C99512C16844C0060A914 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D25C99532C16844F0060A914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25C99562C16844F0060A914 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D25C99582C16844F0060A914 /* AdminOrderFood_Desktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdminOrderFood_Desktop.entitlements; sourceTree = "<group>"; };
+		D25C995D2C1684500060A914 /* AdminOrderFood_DesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminOrderFood_DesktopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C99612C1684500060A914 /* AdminOrderFood_DesktopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderFood_DesktopTests.swift; sourceTree = "<group>"; };
+		D25C99672C1684500060A914 /* AdminOrderFood_DesktopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdminOrderFood_DesktopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C996B2C1684500060A914 /* AdminOrderFood_DesktopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderFood_DesktopUITests.swift; sourceTree = "<group>"; };
+		D25C996D2C1684500060A914 /* AdminOrderFood_DesktopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderFood_DesktopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25C99492C16844C0060A914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C995A2C1684500060A914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C99642C1684500060A914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25C99432C16844C0060A914 = {
+			isa = PBXGroup;
+			children = (
+				D25C994E2C16844C0060A914 /* AdminOrderFood_Desktop */,
+				D25C99602C1684500060A914 /* AdminOrderFood_DesktopTests */,
+				D25C996A2C1684500060A914 /* AdminOrderFood_DesktopUITests */,
+				D25C994D2C16844C0060A914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D25C994D2C16844C0060A914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25C994C2C16844C0060A914 /* AdminOrderFood_Desktop.app */,
+				D25C995D2C1684500060A914 /* AdminOrderFood_DesktopTests.xctest */,
+				D25C99672C1684500060A914 /* AdminOrderFood_DesktopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25C994E2C16844C0060A914 /* AdminOrderFood_Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				D25C994F2C16844C0060A914 /* AdminOrderFood_DesktopApp.swift */,
+				D25C99512C16844C0060A914 /* ContentView.swift */,
+				D25C99532C16844F0060A914 /* Assets.xcassets */,
+				D25C99582C16844F0060A914 /* AdminOrderFood_Desktop.entitlements */,
+				D25C99552C16844F0060A914 /* Preview Content */,
+			);
+			path = AdminOrderFood_Desktop;
+			sourceTree = "<group>";
+		};
+		D25C99552C16844F0060A914 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D25C99562C16844F0060A914 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D25C99602C1684500060A914 /* AdminOrderFood_DesktopTests */ = {
+			isa = PBXGroup;
+			children = (
+				D25C99612C1684500060A914 /* AdminOrderFood_DesktopTests.swift */,
+			);
+			path = AdminOrderFood_DesktopTests;
+			sourceTree = "<group>";
+		};
+		D25C996A2C1684500060A914 /* AdminOrderFood_DesktopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D25C996B2C1684500060A914 /* AdminOrderFood_DesktopUITests.swift */,
+				D25C996D2C1684500060A914 /* AdminOrderFood_DesktopUITestsLaunchTests.swift */,
+			);
+			path = AdminOrderFood_DesktopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25C994B2C16844C0060A914 /* AdminOrderFood_Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C99712C1684500060A914 /* Build configuration list for PBXNativeTarget "AdminOrderFood_Desktop" */;
+			buildPhases = (
+				D25C99482C16844C0060A914 /* Sources */,
+				D25C99492C16844C0060A914 /* Frameworks */,
+				D25C994A2C16844C0060A914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdminOrderFood_Desktop;
+			productName = AdminOrderFood_Desktop;
+			productReference = D25C994C2C16844C0060A914 /* AdminOrderFood_Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D25C995C2C1684500060A914 /* AdminOrderFood_DesktopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C99742C1684500060A914 /* Build configuration list for PBXNativeTarget "AdminOrderFood_DesktopTests" */;
+			buildPhases = (
+				D25C99592C1684500060A914 /* Sources */,
+				D25C995A2C1684500060A914 /* Frameworks */,
+				D25C995B2C1684500060A914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25C995F2C1684500060A914 /* PBXTargetDependency */,
+			);
+			name = AdminOrderFood_DesktopTests;
+			productName = AdminOrderFood_DesktopTests;
+			productReference = D25C995D2C1684500060A914 /* AdminOrderFood_DesktopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D25C99662C1684500060A914 /* AdminOrderFood_DesktopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25C99772C1684500060A914 /* Build configuration list for PBXNativeTarget "AdminOrderFood_DesktopUITests" */;
+			buildPhases = (
+				D25C99632C1684500060A914 /* Sources */,
+				D25C99642C1684500060A914 /* Frameworks */,
+				D25C99652C1684500060A914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25C99692C1684500060A914 /* PBXTargetDependency */,
+			);
+			name = AdminOrderFood_DesktopUITests;
+			productName = AdminOrderFood_DesktopUITests;
+			productReference = D25C99672C1684500060A914 /* AdminOrderFood_DesktopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25C99442C16844C0060A914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D25C994B2C16844C0060A914 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D25C995C2C1684500060A914 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D25C994B2C16844C0060A914;
+					};
+					D25C99662C1684500060A914 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D25C994B2C16844C0060A914;
+					};
+				};
+			};
+			buildConfigurationList = D25C99472C16844C0060A914 /* Build configuration list for PBXProject "AdminOrderFood_Desktop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25C99432C16844C0060A914;
+			productRefGroup = D25C994D2C16844C0060A914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25C994B2C16844C0060A914 /* AdminOrderFood_Desktop */,
+				D25C995C2C1684500060A914 /* AdminOrderFood_DesktopTests */,
+				D25C99662C1684500060A914 /* AdminOrderFood_DesktopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25C994A2C16844C0060A914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C99572C16844F0060A914 /* Preview Assets.xcassets in Resources */,
+				D25C99542C16844F0060A914 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C995B2C1684500060A914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C99652C1684500060A914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25C99482C16844C0060A914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C99522C16844C0060A914 /* ContentView.swift in Sources */,
+				D25C99502C16844C0060A914 /* AdminOrderFood_DesktopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C99592C1684500060A914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C99622C1684500060A914 /* AdminOrderFood_DesktopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25C99632C1684500060A914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C996E2C1684500060A914 /* AdminOrderFood_DesktopUITestsLaunchTests.swift in Sources */,
+				D25C996C2C1684500060A914 /* AdminOrderFood_DesktopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D25C995F2C1684500060A914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25C994B2C16844C0060A914 /* AdminOrderFood_Desktop */;
+			targetProxy = D25C995E2C1684500060A914 /* PBXContainerItemProxy */;
+		};
+		D25C99692C1684500060A914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25C994B2C16844C0060A914 /* AdminOrderFood_Desktop */;
+			targetProxy = D25C99682C1684500060A914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D25C996F2C1684500060A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D25C99702C1684500060A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D25C99722C1684500060A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdminOrderFood_Desktop/AdminOrderFood_Desktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdminOrderFood_Desktop/Preview Content\"";
+				DEVELOPMENT_TEAM = YAH93RZF3C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.AdminOrderFood-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D25C99732C1684500060A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AdminOrderFood_Desktop/AdminOrderFood_Desktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdminOrderFood_Desktop/Preview Content\"";
+				DEVELOPMENT_TEAM = YAH93RZF3C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.AdminOrderFood-Desktop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D25C99752C1684500060A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAH93RZF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.AdminOrderFood-DesktopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdminOrderFood_Desktop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdminOrderFood_Desktop";
+			};
+			name = Debug;
+		};
+		D25C99762C1684500060A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAH93RZF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.AdminOrderFood-DesktopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdminOrderFood_Desktop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdminOrderFood_Desktop";
+			};
+			name = Release;
+		};
+		D25C99782C1684500060A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAH93RZF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.AdminOrderFood-DesktopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdminOrderFood_Desktop;
+			};
+			name = Debug;
+		};
+		D25C99792C1684500060A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAH93RZF3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.AdminOrderFood-DesktopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AdminOrderFood_Desktop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25C99472C16844C0060A914 /* Build configuration list for PBXProject "AdminOrderFood_Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C996F2C1684500060A914 /* Debug */,
+				D25C99702C1684500060A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C99712C1684500060A914 /* Build configuration list for PBXNativeTarget "AdminOrderFood_Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C99722C1684500060A914 /* Debug */,
+				D25C99732C1684500060A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C99742C1684500060A914 /* Build configuration list for PBXNativeTarget "AdminOrderFood_DesktopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C99752C1684500060A914 /* Debug */,
+				D25C99762C1684500060A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25C99772C1684500060A914 /* Build configuration list for PBXNativeTarget "AdminOrderFood_DesktopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C99782C1684500060A914 /* Debug */,
+				D25C99792C1684500060A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25C99442C16844C0060A914 /* Project object */;
+}

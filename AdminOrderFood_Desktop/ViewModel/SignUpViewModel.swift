@@ -11,7 +11,7 @@ import Combine
 class SignUpViewModel: ObservableObject {
     @Published var signup: SignUp = SignUp(username: "", email: "", password: "", phone: "", address: "")
     @Published var errorMessage: String? = nil
-    var urlstring = "http://127.0.0.1:8080/api/login/signup"
+    var urlstring = "http://127.0.0.1:9000/api/login/signup"
     
     
     func signUpUser(completion: @escaping (Bool, String?) -> Void) {

@@ -10,6 +10,8 @@ import SwiftUI
 struct OrderView: View {
     @ObservedObject var model = OrderViewModel()
     @ObservedObject var modelpay = PaymentViewModel()
+    @State private var searchText = ""
+
     var body: some View {
         VStack{
             HStack{
@@ -48,6 +50,7 @@ struct OrderView: View {
         .onAppear{
             model.fetchAllOrdersByUserId()
         }
+        .searchable(text: $searchText, prompt: "Look for something")
     }
 }
 

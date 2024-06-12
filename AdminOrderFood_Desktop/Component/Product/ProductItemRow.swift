@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProductItemRow: View {
-    @Binding var product : Product
+    @State var product : Product
     var body: some View {
         Text("ID:")
             .bold()

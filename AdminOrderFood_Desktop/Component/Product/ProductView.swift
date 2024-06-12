@@ -14,6 +14,8 @@ struct ProductView: View {
     @State var modelCate = CategoryListViewModel()
     @State var product = Product(id: 0, name: "", image: "", imageData: "", price: 1, description: "", quantity: 1, category: Category(id: 1, name: ""))
     @State var isEdit = false
+    @State private var searchText = ""
+    
     var body: some View {
         VStack{
             HStack{
@@ -23,7 +25,7 @@ struct ProductView: View {
                     .foregroundColor(.white)
                 Spacer()
             }
-                .padding()
+            .padding()
             VStack{
                 if isAdd && !isEdit {
                     AddProductView(liscate: modelCate.categories, isAdd: $isAdd)
@@ -37,7 +39,7 @@ struct ProductView: View {
                             model.fetchProducts{success in
                             }
                         }
-            }else {
+                }else {
                     HStack{
                         Text("List Product")
                             .font(.title)
@@ -55,7 +57,7 @@ struct ProductView: View {
                     }.padding()
                     Divider()
                     List{
-                        ForEach($model.products,id: \.id){ product in
+                        ForEach(filteredProducts,id: \.id){ product in
                             HStack{
                                 ProductItemRow(product: product)
                                     .font(.system(size: 20))
@@ -92,9 +94,17 @@ struct ProductView: View {
             .cornerRadius(10)
             .padding()
         }.frame(maxHeight: .infinity, alignment: .top)
-        .background(Color.blue)
-        .onAppear{
-            modelCate.fetchCategories()
+            .background(Color.blue)
+            .onAppear{
+                modelCate.fetchCategories()
+            }
+            .searchable(text: $searchText, prompt: "Look for something")
+    }
+    var filteredProducts: [Product] {
+        if searchText.isEmpty {
+            return model.products
+        } else {
+            return model.products.filter { $0.name.lowercased().contains(searchText.lowercased()) }
         }
     }
 }

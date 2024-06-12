@@ -12,6 +12,8 @@ struct UserView: View {
     @State var isOpen = false
     @ObservedObject var model = UserViewModel()
     @State var userEdit  = User(id: 0, username: "", email: "", createDate: "", phone: "", address: "", roles: 0)
+    @State private var searchText = ""
+
     var body: some View {
         VStack{
             HStack{
@@ -56,7 +58,7 @@ struct UserView: View {
                     }.padding()
                     Divider()
                     List{
-                        ForEach(model.users,id: \.id){ user in
+                        ForEach(filtereUsers,id: \.id){ user in
                             HStack{
                                 UserItemRow(user: user)
                                 Button(action: {
@@ -99,6 +101,14 @@ struct UserView: View {
                     
                 }
             }
+            .searchable(text: $searchText, prompt: "Look for something")
+    }
+    var filtereUsers: [User] {
+        if searchText.isEmpty {
+            return model.users
+        } else {
+            return model.users.filter { $0.username.lowercased().contains(searchText.lowercased()) }
+        }
     }
 }
 

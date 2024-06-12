@@ -12,6 +12,7 @@ struct CategoryView: View {
     @State var isEdit = false
     @State var newName = ""
     @State var id = 0
+    @State private var searchText = ""
     var body: some View {
         VStack{
             HStack{
@@ -80,7 +81,7 @@ struct CategoryView: View {
                     
                 }.padding()
                 List{
-                    ForEach(model.categories,id: \.id){ category in
+                    ForEach(filteredCategories,id: \.id){ category in
                         HStack{
                             CategoryItemRow(category: category)
                             Button(action: {
@@ -119,6 +120,14 @@ struct CategoryView: View {
         .background(Color.blue)
         .onAppear{
             model.fetchCategories()
+        }
+        .searchable(text: $searchText, prompt: "Look for something")
+    }
+    var filteredCategories: [Category] {
+        if searchText.isEmpty {
+            return model.categories
+        } else {
+            return model.categories.filter { $0.name.lowercased().contains(searchText.lowercased()) }
         }
     }
 }
